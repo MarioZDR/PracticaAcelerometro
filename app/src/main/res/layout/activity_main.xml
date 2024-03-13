@@ -5,20 +5,20 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/velocidadMaxima"
+        android:id="@+id/aceleracionMaxima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:textSize="18sp"
-        android:text="Velocidad Máxima: " />
+        android:text="Aceleración Máxima: " />
 
     <TextView
-        android:id="@+id/velocidadActual"
+        android:id="@+id/aceleracionActual"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:textSize="24sp"
-        android:text="Velocidad Actual: " />
+        android:text="Aceleración Actual: " />
 
 </RelativeLayout>
